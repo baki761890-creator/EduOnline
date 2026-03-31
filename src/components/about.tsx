@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaGraduationCap, FaUsers, FaChalkboardTeacher } from 'react-icons/fa'
 
 const About = () => {

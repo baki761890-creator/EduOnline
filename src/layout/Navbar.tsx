@@ -10,15 +10,12 @@ import {
 } from 'react-icons/fa'
 import { IoIosLogOut } from 'react-icons/io'
 import { Link } from 'react-router-dom'
+import type { User } from '../types/user'
 
 type CourseName = 'HTML' | 'CSS' | 'JS' | 'ReactJS' | 'Redux'
 
-interface User {
-  displayName?: string
-  photoURL?: string
-}
 
-interface NavbarProps {
+type NavbarProps = {
   clas: CourseName
   setClas: React.Dispatch<React.SetStateAction<CourseName>>
   user: User | null
